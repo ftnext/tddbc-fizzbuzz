@@ -13,3 +13,6 @@ class TestFizzBuzz:
 
     def test_3を渡すと文字列Fizzを返す(self):
         assert "Fizz" == self.fizzBuzz.convert(3)
+
+    def test_5を渡すと文字列Buzzを返す(self):
+        assert "Buzz" == self.fizzBuzz.convert(5)
