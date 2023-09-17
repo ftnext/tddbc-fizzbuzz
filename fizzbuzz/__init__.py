@@ -1,3 +1,3 @@
 class FizzBuzz:
-    def convert(self, n: int) -> str:
-        return str(n)
+    def convert(self, num: int) -> str:
+        return str(num)
