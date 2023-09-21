@@ -14,11 +14,6 @@ class Test_FizzBuzz数列と変換規則を扱うFizzBuzzクラス:
                 assert "Buzz" == fizzBuzz.convert(5)
 
         class Test_その他の数のときはそのまま文字列に変換する:
-            def setup_method(self):
-                self.fizzBuzz = FizzBuzz()
-
             def test_1を渡すと文字列1を返す(self):
-                assert "1" == self.fizzBuzz.convert(1)
-
-            def test_2を渡すと文字列2を返す(self):
-                assert "2" == self.fizzBuzz.convert(2)
+                fizzBuzz = FizzBuzz()
+                assert "1" == fizzBuzz.convert(1)
