@@ -1,8 +1,8 @@
 from fizzbuzz import FizzBuzz
 
 
-class TestFizzBuzz:
-    class Test_数を文字列に変換する:
+class Test_FizzBuzz数列と変換規則を扱うFizzBuzzクラス:
+    class Test_convertメソッドは数を文字列に変換する:
         class Test_3の倍数のときは数の代わりにFizzに変換する:
             def test_3を渡すと文字列Fizzを返す(self):
                 fizzBuzz = FizzBuzz()
